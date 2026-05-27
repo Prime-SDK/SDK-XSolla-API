@@ -1,0 +1,8 @@
+{
+  "GitPackages": [
+    {
+      "Name": "com.xsolla.commerce-sdk",
+      "Url": "https://github.com/xsolla/store-unity-sdk.git?path=/Assets/Xsolla#master"
+    }
+  ]
+}
