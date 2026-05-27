@@ -1,11 +1,11 @@
 using AOT;
-using MirraGames.SDK.Common;
+using PrimeGames.SDK.Common;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Xsolla.Core;
 
-namespace MirraGames.SDK.XSolla.Web
+namespace PrimeGames.SDK.XSolla.Web
 {
     [Provider(typeof(IPayments))]
     public class CrazyGamesXSollaPayments : CommonXSollaPayments

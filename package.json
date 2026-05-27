@@ -1,7 +1,7 @@
 {
-  "name": "com.mirrasdk.xsolla.api",
+  "name": "com.primesdk.xsolla.api",
   "version": "1.0.1",
-  "displayName": "XSolla API for MirraSDK5",
+  "displayName": "XSolla API for PrimeSDK",
   "unity": "2021.3",
   "documentationUrl": "",
   "changelogUrl": "",

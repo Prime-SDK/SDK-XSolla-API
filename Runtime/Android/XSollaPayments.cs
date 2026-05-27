@@ -1,9 +1,9 @@
-using MirraGames.SDK.Common;
+using PrimeGames.SDK.Common;
 using System;
 using Xsolla.Auth;
 using Xsolla.Core;
 
-namespace MirraGames.SDK.XSolla.Android
+namespace PrimeGames.SDK.XSolla.Android
 {
     [Provider(typeof(IPayments))]
     public class XSollaPayments : CommonXSollaPayments

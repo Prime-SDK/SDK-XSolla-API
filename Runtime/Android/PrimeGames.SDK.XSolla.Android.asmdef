@@ -1,9 +1,9 @@
 {
-    "name": "MirraGames.SDK.XSolla.Android",
-    "rootNamespace": "MirraGames.SDK.XSolla.Android",
+    "name": "PrimeGames.SDK.XSolla.Android",
+    "rootNamespace": "PrimeGames.SDK.XSolla.Android",
     "references": [
-        "MirraGames.SDK.Common",
-        "MirraGames.SDK.XSolla",
+        "PrimeGames.SDK.Common",
+        "PrimeGames.SDK.XSolla",
         "Xsolla",
         "XsollaBrowser"
     ],

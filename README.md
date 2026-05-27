@@ -2,12 +2,12 @@
 
 2. Carefully follow official instructions on setting up the XSolla package.
 
-3. Install SDK5-XSolla-API package:
+3. Install SDK-XSolla-API package:
 
 ```git
-https://github.com/MirraSDK/SDK5-XSolla-API.git
+https://github.com/Prime-SDK/SDK-XSolla-API.git
 ```
 
 4. For Android, open Toolkit, choose XSollaPayments in Build configuration and then enter XSolla token.
 
-5. For CrazyGames, open Toolkit, choose CrazyGamesXSollaPayments in MirraWebConfiguration and select MirraWebConfiguration for Build.
+5. For CrazyGames, open Toolkit, choose CrazyGamesXSollaPayments in PrimeWebConfiguration and select PrimeWebConfiguration for Build.

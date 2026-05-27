@@ -10,7 +10,7 @@ const crazyGames_xsolla_library = {
         };
         try {
             async function getXSollaToken() {
-                await Module.waitForMirraSDK();
+                await Module.waitForPrimeSDK();
                 try {
                     const token = await window.CrazyGames.SDK.user.getXsollaUserToken();
                     console.log('library', 'Get Xsolla token result', token);
@@ -31,11 +31,11 @@ const crazyGames_xsolla_library = {
 
     crazyGames_isLoggedIn: function () {
         try {
-            if (Module.mirraSDK) {
-                return Module.mirraSDK.player.isLoggedIn;
+            if (Module.primeSDK) {
+                return Module.primeSDK.player.isLoggedIn;
             }
             else {
-                console.log('library', 'mirraSDK is not ready');
+                console.log('library', 'primeSDK is not ready');
                 return false;
             }
         }
@@ -54,11 +54,11 @@ const crazyGames_xsolla_library = {
             Module.invokeMonoPCallback(senderId, onErrorPtr);
         };
         try {
-            if (Module.mirraSDK) {
-                Module.mirraSDK.player.invokeLogin(onSuccess, onError);
+            if (Module.primeSDK) {
+                Module.primeSDK.player.invokeLogin(onSuccess, onError);
             }
             else {
-                console.log('library', 'mirraSDK is not ready');
+                console.log('library', 'primeSDK is not ready');
                 onError();
             }
         }

@@ -1,4 +1,4 @@
-using MirraGames.SDK.Common;
+using PrimeGames.SDK.Common;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -6,7 +6,7 @@ using Xsolla.Catalog;
 using Xsolla.Core;
 using Xsolla.Inventory;
 
-namespace MirraGames.SDK.XSolla
+namespace PrimeGames.SDK.XSolla
 {
     public abstract class CommonXSollaPayments : CommonPayments
     {

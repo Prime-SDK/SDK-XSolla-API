@@ -1,24 +1,18 @@
 {
-    "name": "MirraGames.SDK.XSolla.Web",
-    "rootNamespace": "MirraGames.SDK.XSolla.Web",
+    "name": "PrimeGames.SDK.XSolla",
+    "rootNamespace": "PrimeGames.SDK.XSolla",
     "references": [
-        "MirraGames.SDK.Common",
-        "MirraGames.SDK.XSolla",
+        "PrimeGames.SDK.Common",
         "Xsolla",
         "XsollaBrowser"
     ],
-    "includePlatforms": [
-        "Editor",
-        "WebGL"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [
-        "UNITY_WEBGL"
-    ],
+    "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false
 }
