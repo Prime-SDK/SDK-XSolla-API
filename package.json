@@ -1,12 +1,12 @@
 {
   "name": "com.primesdk.xsolla.api",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "displayName": "XSolla Web API for PrimeSDK",
   "unity": "2021.3",
   "documentationUrl": "",
   "changelogUrl": "",
   "author": {
-    "name": "Roman Likhadievski",
-    "url": "https://github.com/romanlee17"
+    "name": "Prime Pilshing",
+    "url": "https://github.com/Prime-SDK"
   }
 }
