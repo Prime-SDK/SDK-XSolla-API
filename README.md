@@ -1,4 +1,7 @@
-1. Install XSolla .unitypackage: https://developers.xsolla.com/sdk/unity/integrate-complete-solution/install-sdk/
+This package provides the Web/CrazyGames Xsolla integration for PrimeSDK.
+It is not a mobile Xsolla integration package.
+
+1. Install Xsolla Unity Commerce SDK: https://developers.xsolla.com/sdk/unity/integrate-complete-solution/install-sdk/
 
 2. Carefully follow official instructions on setting up the XSolla package.
 
@@ -10,6 +13,4 @@
 https://github.com/Prime-SDK/SDK-XSolla-API.git
 ```
 
-5. For Android, open Toolkit, choose XSollaPayments in Build configuration and then enter XSolla token.
-
-6. For CrazyGames, open Toolkit, choose CrazyGamesXSollaPayments in PrimeWebConfiguration and select PrimeWebConfiguration for Build.
+5. For Web/CrazyGames, open Toolkit, choose CrazyGamesXSollaPayments in PrimeWebConfiguration and select PrimeWebConfiguration for Build.

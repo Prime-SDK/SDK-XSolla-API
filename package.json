@@ -1,7 +1,7 @@
 {
   "name": "com.primesdk.xsolla.api",
-  "version": "1.0.2",
-  "displayName": "XSolla API for PrimeSDK",
+  "version": "1.0.3",
+  "displayName": "XSolla Web API for PrimeSDK",
   "unity": "2021.3",
   "documentationUrl": "",
   "changelogUrl": "",
