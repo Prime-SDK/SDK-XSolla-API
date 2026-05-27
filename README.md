@@ -3,6 +3,12 @@ It is not a mobile Xsolla integration package.
 
 1. Install Xsolla Unity Commerce SDK: https://developers.xsolla.com/sdk/unity/integrate-complete-solution/install-sdk/
 
+UPM URL:
+
+```git
+https://github.com/xsolla/store-unity-sdk.git?path=Assets/Xsolla
+```
+
 2. Carefully follow official instructions on setting up the XSolla package.
 
 3. If you install from PrimeSDK Toolkit, use automatic installation so Xsolla Unity Commerce SDK is installed before this API package.
